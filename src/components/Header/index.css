@@ -1,0 +1,80 @@
+.logo-website {
+  width: 30;
+  height: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.mobile-approach-design {
+  display: none;
+}
+
+.icons {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.header-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  width: 100%;
+  margin-bottom: 20px;
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+.logoutBtn {
+  height: 30px;
+  width: 75px;
+  background-color: #6366f1;
+  border-width: 0px;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.home {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.jobs {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.routes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .mobile-approach-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .routes-container {
+    display: none;
+  }
+
+  .logoutBtn {
+    display: none;
+  }
+}

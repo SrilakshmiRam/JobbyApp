@@ -1,0 +1,106 @@
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.item {
+  background-color: #272727;
+  border-radius: 15px;
+  margin: 35px;
+  padding: 20px;
+}
+
+.jobcards-list {
+  list-style-type: none;
+  padding-left: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.LAC-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.similar-jobs {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-left: 35px;
+}
+
+.lac-description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  color: #f8fafc;
+  max-width: 550px;
+}
+
+.skills-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.visit {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.description-visitlink-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.responsive-container {
+  display: flex;
+}
+
+.Internship-container-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.job-item-description {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 400;
+  color: #f1f5f9;
+}
+
+.LACDetails-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .LACDetails-container {
+    flex-direction: column;
+  }
+
+  .image-lac {
+    width: 75%;
+  }
+}
